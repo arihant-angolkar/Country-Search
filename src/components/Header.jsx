@@ -3,7 +3,7 @@ import { MapPin } from 'lucide-react';  // Import Lucide icon
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-pink-500 to-purple-500 p-6 shadow-md text-white text-center flex flex-col items-center">
+    <header className="bg-gradient-to-r from-yellow-500 to-purple-500 p-6 shadow-md text-white text-center flex flex-col items-center">
       <MapPin className="text-white mb-2 animate__animated animate__fadeIn animate__delay-1s" size={48} /> {/* Map Pin Icon */}
       <h1 className="text-4xl font-bold animate__animated animate__fadeIn animate__delay-1s">
       Country Search
